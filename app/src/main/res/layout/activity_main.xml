@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#00BCD4"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:layout_marginTop="50dp"
+       android:layout_gravity="center"
+       android:layout_width="150dp"
+       android:layout_height="150dp"
+       android:src="@drawable/ic_launcher_background"/>
+    <TextView
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USENAME"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#D1C241"
+        android:layout_marginLeft="30dp" />
+    <EditText
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="username"
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dp" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#D1C241"
+        android:layout_marginLeft="30dp"/>
+    <EditText
+        android:backgroundTint="@android:color/transparent"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="password"
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GET STARTING"
+            android:backgroundTint="#FF9800"
+            android:layout_margin="30dp"
+            android:background="@drawable/bogoc"
+           />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF9800"
+            android:text="Not register"
+            android:layout_margin="30dp"
+            android:background="@drawable/bogoc"
+            />
+</LinearLayout>
